@@ -12,7 +12,9 @@ function MyStack(){
             <Stack.Screen name="Home" 
             options={{ headerShown: false}}
             component={HomeScreen}/>
-            <Stack.Screen name="Login" component={LoginScreen}/>
+            <Stack.Screen name="Login" 
+            options={{ headerShown: false}}
+            component={LoginScreen}/>
         </Stack.Navigator>
     )
 }
