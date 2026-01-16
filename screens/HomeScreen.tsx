@@ -4,7 +4,7 @@ import React from 'react'
 export default function HomeScreen({navigation} : any) {
   return (
     <ImageBackground 
-    source={{uri:"https://www.xtrafondos.com/thumbs/vertical/webp/1_8359.webp",}}
+    source={{uri:"https://www.xtrafondos.com/wallpapers/vertical/paisaje-minecraft-atardecer-en-la-selva-12978.jpg",}}
     style={styles.container}
     resizeMode='cover'>
 
